@@ -1,0 +1,40 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+secrets/
+.secrets/
+# Personal content and generated data
+data/
+artifacts/
+*.db
+*.sqlite
+*.sqlite3
+*.log
+recordings/
+conversations/
+# Model binaries and audio/camera assets
+models/
+*.gguf
+*.safetensors
+*.onnx
+*.pt
+*.pth
+# Python and editor caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+build/
+dist/
+.idea/
+.vscode/
+# Demo output
+.demo-data/
